@@ -11,7 +11,7 @@ pip install streamlit requests
 ```
 
 ## Getting Started
-1. Launch the Application:
+1. **Launch the Application:**
 - Open your terminal.
 - Navigate to the directory containing your application script.
 - Run the application using the command:
@@ -19,36 +19,36 @@ pip install streamlit requests
 ```
 streamlit run main.py
 ```
-2. Access the Web Interface:
+2. **Access the Web Interface:**
 - Once the application is running, open a web browser and go to the URL provided in the terminal (typically `http://localhost:8501`).
 
 ## Using the Application
-1. Gimbal Configuration
+1. **Gimbal Configuration**
 - Enter Gimbal IP and Port:
   - In the input fields, enter the IP address and port number of your gimbal camera. The default values are typically `27.27.3.54` for IP and `37260` for port.
 
-2. Gimbal Control
-- Reset Options:
-  - Use the GIMBAL RESET button to reset the gimbal's pan and tilt to their default positions (0 degrees).
-  - Use the CAMERA RESET button to reboot the camera.
+2. **Gimbal Control**
+- **Reset Options:**
+  - Use the **GIMBAL RESET** button to reset the gimbal's pan and tilt to their default positions (0 degrees).
+  - Use the **CAMERA RESET** button to reboot the camera.
 
-- Camera Modes:
-  - Choose between FOLLOW MODE, LOCK MODE, and FPV MODE to set the gimbal's operational behavior.
+- **Camera Modes:**
+  - Choose between **FOLLOW MODE**, **LOCK MODE**, and **FPV MODE** to set the gimbal's operational behavior.
 
-- Gimbal Slider Control:
+- **Gimbal Slider Control:**
   - Adjust the pan and tilt angles using the sliders provided. Enable or disable the sliders using the checkbox.
   - Click the CENTRE GIMBAL button to reset both pan and tilt to 0 degrees.
  
-3. Zoom Control
-- Zoom Control:
+3. **Zoom Control**
+- **Zoom Control:**
   - Activate the zoom control feature using the checkbox. You can control the zoom using buttons and a slider.
 
-4. Codec Requests
-- Requesting Gimbal Camera Codec Specs:
+4. **Codec Requests**
+- **Requesting Gimbal Camera Codec Specs:**
   - Select the desired codec from the dropdown (Recording stream, Main stream, or Sub stream) and click Request to obtain codec specifications.
 
-5. Sending Test Commands
-- Test Command Interface:
+5. **Sending Test Commands**
+- **Test Command Interface:**
   - Enter a hex command in the provided input box and click Send Test Command to send it to the gimbal.
 
 ## Troubleshooting
