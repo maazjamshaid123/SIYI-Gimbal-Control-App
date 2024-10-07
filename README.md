@@ -1,5 +1,5 @@
 # SIYI-Gimbal-Control-App
-![Maaz Jamshaid](app.jpg)
+[![Maaz Jamshaid](app.jpg)](https://github.com/maazjamshaid123/SIYI-Gimbal-Control-App/blob/main/app.png)
 ## Overview
 The SIYI Gimbal Control application allows users to control a SIYI gimbal remotely via a web interface. This app facilitates the management of gimbal functions such as pan and tilt adjustments, mode selections, and camera codec requests.
 
