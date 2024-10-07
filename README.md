@@ -27,7 +27,7 @@ streamlit run main.py
 ## Using the Application
 1. **Gimbal Configuration**
 - Enter Gimbal IP and Port:
-  - In the input fields, enter the IP address and port number of your gimbal camera. The default values are typically `27.27.3.54` for IP and `37260` for port.
+  - In the input fields, enter the IP address and port number of your gimbal camera. The default values are typically `192.168.144.25` for IP and `37260` for port.
 
 2. **Gimbal Control**
 - **Reset Options:**
